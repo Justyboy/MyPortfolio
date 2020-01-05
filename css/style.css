@@ -377,20 +377,18 @@ h2 {
 }
 
 .skill.one svg {
-    stroke-dashoffset: 50;
+    stroke-dashoffset: 40;
 }
 
 .skill.two svg {
-    stroke-dashoffset: 20;
+    stroke-dashoffset: 25;
 }
 
 .skill.three svg {
-    stroke-dashoffset: 45;
+    stroke-dashoffset: 10;
 }
 
-.skill.four svg {
-    stroke-dashoffset: 30;
-}
+
 
 
 .skill svg {
@@ -439,7 +437,7 @@ h2 {
 }
 
 #technical-skills .skill.one::after {
-    width: 90%;
+    width: 98%;
 }
 
 #technical-skills .skill.two::after {
@@ -451,7 +449,7 @@ h2 {
 }
 
 #technical-skills .skill.four::after {
-    width: 85%;
+    width: 72%;
 }
 
 /*skills end*/
