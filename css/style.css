@@ -7,7 +7,7 @@
 body {
     line-height: 1.41;
     font-family: 'IBM Plex Serif', serif;
-    background-color: #3d405b;
+    background-color: #474747;
 }
 
 .container {
@@ -24,7 +24,7 @@ ul {
 
 header.open,
 header:hover {
-    background-color: #3d405b;
+    background-color: #474747;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, .1);
 }
 
@@ -100,7 +100,7 @@ header.toggled #navigation {
     min-height: 100vh;
     position: absolute;
     z-index: 99;
-    background-color: #3d405b;
+    background-color: #474747;
     left: 0;
     top: 90px;
     transform: translateX(-300px);
@@ -127,7 +127,7 @@ header.toggled #navigation {
 
 .intro-text h1 strong,
 .intro-text h1 em {
-    color: #e07a5f;
+    color: #045EEC;
     display: block;
     font-size: 1.2em;
     font-weight: bold;
@@ -162,11 +162,11 @@ header.toggled #navigation {
 }
 
 .btn-highlight {
-    background-color: #e07a5f;
+    background-color: #045EEC;
 }
 
 .btn-light {
-    background-color: #3d405b;
+    background-color: #474747;
 }
 
 .go-down {
@@ -216,8 +216,8 @@ h2 {
 }
 
 .service:hover .service-icon {
-    background-color: #e07a5f;
-    outline: 4px solid #e07a5f;
+    background-color: #045EEC;
+    outline: 4px solid #045EEC;
     outline-offset: 6px;
 }
 
@@ -258,7 +258,7 @@ h2 {
 /*history start*/
 
 #history {
-    background-color: #e07a5f;
+    background-color: #045EEC;
     color: #fff;
 }
 
@@ -270,7 +270,7 @@ h2 {
 
 .history-title .title-icon {
     display: inline-block;
-    color: #3d405b;
+    color: #474747;
     margin-right: 5px;
 }
 
@@ -310,7 +310,7 @@ h2 {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #3d405b;
+    background-color: #474747;
     display: block;
     position: absolute;
     left: -3px;
@@ -380,7 +380,7 @@ h2 {
 .skill svg {
     height: 100px;
     fill: none;
-    stroke: #e07a5f;
+    stroke: #045EEC;
     stroke-width: 5px;
     stroke-dasharray: 251 251;
 }
@@ -394,7 +394,7 @@ h2 {
     content: '';
     width: 100%;
     height: 15px;
-    background-color: #e07a5f;
+    background-color: #045EEC;
     display: block;
     position: absolute;
     top: 72px;
@@ -504,7 +504,7 @@ h2 {
 }
 
 .project-icon {
-    background-color: #3d405b;
+    background-color: #474747;
     color: #fff;
     padding: 15px;
     font-size: 1.2em;
@@ -532,7 +532,7 @@ h2 {
 
 .fact-icon {
     font-size: 3em;
-    color: #3d405b;
+    color: #474747;
 }
 
 .fact-text {
@@ -551,7 +551,7 @@ h2 {
 
 .testimonial {
     margin: 100px auto;
-    background-color: #3d405b;
+    background-color: #474747;
     position: relative;
     text-align: center;
     width: 350px;
@@ -568,7 +568,7 @@ h2 {
     top: -50px;
     left: 125px;
     border: 5px solid rgba(0, 0, 0, .5);
-    border-bottom: 5px solid #e07a5f;
+    border-bottom: 5px solid #045EEC;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, .1);
 }
 
@@ -594,7 +594,7 @@ h2 {
     top: -5px;
     left: 10px;
     font-size: 1.5em;
-    color: #e07a5f;
+    color: #045EEC;
 }
 
 /*testimonials end*/
@@ -611,7 +611,7 @@ h2 {
     text-align: center;
     background-color: #fff;
     border-radius: 5px;
-    color: #3d405b;
+    color: #474747;
 }
 
 .post-img {
@@ -624,8 +624,8 @@ h2 {
     width: 100px;
     border-radius: 50%;
     margin-top: -50px;
-    border: 5px solid #3d405b;
-    border-bottom: 5px solid #e07a5f;
+    border: 5px solid #474747;
+    border-bottom: 5px solid #045EEC;
 }
 
 .author-name {
@@ -682,8 +682,8 @@ h2 {
 }
 
 .info:hover .info-icon {
-    background-color: #e07a5f;
-    outline: 4px solid #e07a5f;
+    background-color: #045EEC;
+    outline: 4px solid #045EEC;
     outline-offset: 6px;
 }
 
@@ -727,7 +727,7 @@ h2 {
 
 #contact {
     background-color: #dddddd;
-    color: #3d405b;
+    color: #474747;
 }
 
 #contact form {
@@ -752,7 +752,7 @@ h2 {
 #contact form textarea:hover,
 #contact form input:focus,
 #contact form textarea:focus {
-    border: 2px solid #e07a5f;
+    border: 2px solid #045EEC;
 
 }
 
@@ -782,11 +782,11 @@ h2 {
 }
 
 #footer .link:hover {
-    border: 3px solid #e07a5f;
+    border: 3px solid #045EEC;
 }
 
 #footer .link a:hover {
-    color: #e07a5f;
+    color: #045EEC;
 }
 
 #footer .link a {
@@ -824,7 +824,7 @@ h2 {
     border: none;
     height: 65px;
     width: 65px;
-    background-color: #e07a5f;
+    background-color: #045EEC;
     color: #fff;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, .2);
 }
@@ -885,7 +885,7 @@ img {
         min-height: auto;
         position: static;
         z-index: 1;
-        background-color: #3d405b;
+        background-color: #474747;
         left: 0;
         top: 0;
         transform: translateX(0px);
