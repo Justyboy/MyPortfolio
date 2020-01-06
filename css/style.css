@@ -234,6 +234,7 @@ h2 {
     outline: 4px solid rgba(0,1,176,0.64);
 	
     outline-offset: 6px;
+	transform: rotate(45deg);
 }
 
 .service-icon {
@@ -244,14 +245,14 @@ h2 {
     display: inline-block;
     background-color: rgba(0, 0, 0, .2);
     margin-bottom: 35px;
-    transform: rotate(45deg);
-    transition: all 0.4s;
+    transform: rotate(-45deg);
+    transition: all .8s;
     outline: 6px solid transparent;
     outline-offset: 0px;
 }
 
 .service-icon svg {
-    transform: rotate(-45deg);
+    transform: rotate(45deg);
 }
 
 .service-title h3 {
@@ -696,9 +697,10 @@ h2 {
 }
 
 .info:hover .info-icon {
-    background-color: rgba(0,1,176,0.64);
+    background-color: rgba(0,165,210,0.64);
     outline: 4px solid rgba(0,1,176,0.64);
     outline-offset: 6px;
+	transform: rotate(-45deg);
 }
 
 .info-icon {
@@ -710,7 +712,7 @@ h2 {
     background-color: rgba(0, 0, 0, .2);
     margin-bottom: 35px;
     transform: rotate(45deg);
-    transition: all 0.4s;
+    transition: all 0.8s;
     outline: 6px solid transparent;
     outline-offset: 0px;
 }
