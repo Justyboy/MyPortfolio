@@ -802,7 +802,8 @@ h2 {
 }
 
 #footer .link a:hover {
-    color: rgba(0,1,176,0.64);
+    color: #fff;
+	transform: scale(1.2);
 }
 
 #footer .link a {
@@ -840,7 +841,7 @@ h2 {
     border: none;
     height: 65px;
     width: 65px;
-    background-color: rgba(0,1,176,0.64);
+    background-color: rgba(0,165,210,0.64);
     color: #fff;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, .2);
 }
