@@ -453,6 +453,17 @@ h2 {
     width: 72%;
 }
 
+.skills-container {
+	opacity: 0;
+	transition-delay: 0.9s; 
+	transition: 0.9s; 
+}
+.skills-container:hover {
+    opacity: 1;
+	
+	
+}
+
 /*skills end*/
 
 /*portfolio start*/
