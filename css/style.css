@@ -490,17 +490,17 @@ h2 {
 }
 
 .project.two {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../img/mac.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../img/screens.jpg);
     background-size: cover;
 }
 
 .project.three {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../img/macbook.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../img/laptop.jpg);
     background-size: cover;
 }
 
 .project.four {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../img/outside.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../img/p1.jpg);
     background-size: cover;
 }
 
@@ -809,12 +809,13 @@ h2 {
 }
 
 #footer .link:hover {
-    border: 3px solid rgba(0,1,176,0.64);
+    border: 3px solid rgba(0,165,210,0.64);
 }
 
 #footer .link a:hover {
     color: #fff;
-	transform: scale(1.2);
+	transition: transform .4s;
+	 transform: scale(1.5);
 }
 
 #footer .link a {
