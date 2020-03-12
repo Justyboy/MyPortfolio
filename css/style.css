@@ -479,9 +479,37 @@ h2 {
     position: relative;
 }
 
+/* project button */
+button{
+ display:inline-block;
+ padding:0.5em 3em;
+ border:0.16em solid #4FB8D5;
+ margin:0 0.3em 0.3em 0;
+ box-sizing: border-box;
+ text-decoration:none;
+ text-transform:uppercase;
+ font-family:'Roboto',sans-serif;
+ font-weight:400;
+ color:#000;
+ text-align:center;
+ transition: all 0.15s;
+}
+button:hover{
+ color:#4FB8D5;
+ border-color:#fff;
+}
+button:active{
+ color:#000;
+ border-color:#BBBBBB;
+}
+
 .project:hover .project-title,
-.project:hover .project-desc {
+.project:hover .project-desc,
+.project:hover a p
+{
     opacity: 1;
+	display: inline-block;
+	color: #000;
 }
 
 .project.one {
