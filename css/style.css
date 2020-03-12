@@ -508,7 +508,7 @@ button:active{
 .project:hover a p
 {
     opacity: 1;
-	display: inline-block;
+	display: block;
 	color: #000;
 }
 
