@@ -513,7 +513,7 @@ button:active {
     ),
     url(../img/p1.jpg);
   background-size: cover;
-  min-width: 600px;
+  max-width: 600px;
 }
 
 .project.two {
@@ -523,7 +523,7 @@ button:active {
     ),
     url(../img/screens.jpg);
   background-size: cover;
-  min-width: 400px;
+  max-width: 600px;
 }
 
 .project.three {
@@ -533,7 +533,7 @@ button:active {
     ),
     url(../img/family_love_banner2.jpg);
   background-size: cover;
-  min-width: 400px;
+  max-width: 600px;
 }
 
 .project.four {
@@ -543,7 +543,7 @@ button:active {
     ),
     url(../img/Amazon.PNG);
   background-size: cover;
-  min-width: 400px;
+  max-width: 600px;
 }
 
 .project.five {
@@ -553,7 +553,7 @@ button:active {
     ),
     url(../img/laptop.jpg);
   background-size: cover;
-  min-width: 400px;
+  max-width: 600px;
 }
 
 .project.six {
@@ -563,7 +563,7 @@ button:active {
     ),
     url(../img/screens.jpg);
   background-size: cover;
-  min-width: 400px;
+  max-width: 600px;
 }
 
 .project-title,
