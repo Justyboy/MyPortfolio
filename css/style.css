@@ -498,18 +498,20 @@ button:active {
    border-color: #bbbbbb;
 }
 
+/*
 .project:hover .project-title,
 .project:hover .project-desc,
 .project:hover a p {
-  opacity: 1;
+  opacity: 0.5;
+
   display: block;
   color: #000;
 }
-
+*/
 .project.one {
   background-image: linear-gradient(
-      rgba(255, 255, 255, 0.2),
-      rgba(255, 255, 255, 0.2)
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1)
     ),
     url(../img/p1.jpg);
   background-size: cover;
@@ -518,8 +520,8 @@ button:active {
 
 .project.two {
   background-image: linear-gradient(
-      rgba(255, 255, 255, 0.2),
-      rgba(255, 255, 255, 0.2)
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1)
     ),
     url(../img/screens.jpg);
   background-size: cover;
@@ -528,8 +530,8 @@ button:active {
 
 .project.three {
   background-image: linear-gradient(
-      rgba(255, 255, 255, 0.2),
-      rgba(255, 255, 255, 0.2)
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1)
     ),
     url(../img/family_love_banner2.jpg);
   background-size: cover;
@@ -538,8 +540,8 @@ button:active {
 
 .project.four {
   background-image: linear-gradient(
-      rgba(255, 255, 255, 0.2),
-      rgba(255, 255, 255, 0.2)
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1)
     ),
     url(../img/Amazon.PNG);
   background-size: cover;
@@ -548,8 +550,8 @@ button:active {
 
 .project.five {
   background-image: linear-gradient(
-      rgba(255, 255, 255, 0.2),
-      rgba(255, 255, 255, 0.2)
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1)
     ),
     url(../img/laptop.jpg);
   background-size: cover;
@@ -558,8 +560,8 @@ button:active {
 
 .project.six {
   background-image: linear-gradient(
-      rgba(255, 255, 255, 0.2),
-      rgba(255, 255, 255, 0.2)
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1)
     ),
     url(../img/screens.jpg);
   background-size: cover;
@@ -569,9 +571,11 @@ button:active {
 .project-title,
 .project-desc {
   padding: 10px;
-  background-color: #fff;
-  opacity: 0;
+  background-color: rgba(255, 255, 255);
+  opacity: 0.9;
   transition: opacity 0.4s;
+  color: #000;
+  font-weight: 600;
 }
 
 .project-title {
@@ -969,6 +973,13 @@ img:hover {
 }
 
 @media (max-width: 800px) {
+  .project-title {
+    opacity: 1;
+  }
+
+  .project-desc {
+    opacity: 1 !important;
+  }
   .projects-container {
     display: flex;
     flex-direction: column;
