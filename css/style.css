@@ -541,7 +541,7 @@ button:active {
       rgba(255, 255, 255, 0.2),
       rgba(255, 255, 255, 0.2)
     ),
-    url(../img/p1.jpg);
+    url(../img/Amazon.PNG);
   background-size: cover;
   min-width: 400px;
 }
@@ -965,8 +965,10 @@ img:hover {
 .projects-container {
   display: flex;
   align-content: center;
+  flex-wrap: wrap;
 }
-@media (max-width: 750px) {
+
+@media (max-width: 800px) {
   .projects-container {
     display: flex;
     flex-direction: column;
