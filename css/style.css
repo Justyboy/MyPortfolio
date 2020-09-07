@@ -523,7 +523,7 @@ button:active {
       rgba(255, 255, 255, 0.1),
       rgba(255, 255, 255, 0.1)
     ),
-    url(../img/netflixscreenshot.PNG);
+    url(../img/Netflix\ page.PNG);
   background-size: cover;
   max-width: 600px;
 }
@@ -553,7 +553,7 @@ button:active {
       rgba(255, 255, 255, 0.1),
       rgba(255, 255, 255, 0.1)
     ),
-    url(../img/laptop.jpg);
+    url(../img/hamptonjitney.png);
   background-size: cover;
   max-width: 600px;
 }
@@ -974,11 +974,11 @@ img:hover {
 
 @media (max-width: 800px) {
   .project-title {
-    opacity: 1;
+    opacity: 0.8;
   }
 
   .project-desc {
-    opacity: 1 !important;
+    opacity: 0.8;
   }
   .projects-container {
     display: flex;
