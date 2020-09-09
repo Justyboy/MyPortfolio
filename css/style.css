@@ -271,8 +271,8 @@ h2 {
 /*history start*/
 
 #history {
-  background-color: rgba(70, 70, 76, 0.64);
-  color: #fff;
+  background-color: rgba(255, 255, 255, 0.795);
+  color: #000;
 }
 
 .history-title {
@@ -461,9 +461,10 @@ h2 {
 /*portfolio start*/
 
 #portfolio {
-  background-color: #dddddd;
-  color: #191c35;
-  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.795);
+  color: #000;
+  padding: 20px;
+  min-height: 1100px;
 }
 
 .project {
@@ -526,6 +527,7 @@ button:active {
     url(../img/Netflix\ page.PNG);
   background-size: cover;
   max-width: 600px;
+  min-height: 400px;
 }
 
 .project.three {
@@ -536,6 +538,7 @@ button:active {
     url(../img/family_love_banner2.jpg);
   background-size: cover;
   max-width: 600px;
+  min-height: 400px;
 }
 
 .project.four {
@@ -546,6 +549,7 @@ button:active {
     url(../img/Amazon.PNG);
   background-size: cover;
   max-width: 600px;
+  min-height: 400px;
 }
 
 .project.five {
@@ -556,6 +560,7 @@ button:active {
     url(../img/hamptonjitney.png);
   background-size: cover;
   max-width: 600px;
+  min-height: 400px;
 }
 
 .project.six {
@@ -566,6 +571,7 @@ button:active {
     url(../img/screens.jpg);
   background-size: cover;
   max-width: 600px;
+  min-height: 400px;
 }
 
 .project-title,
@@ -839,8 +845,8 @@ button:active {
 }
 
 #footer {
-  background-color: #191c35;
-  color: #fff;
+  background-color: rgba(255, 255, 255, 0.795);
+  color: #000;
 }
 
 #footer a {
@@ -864,7 +870,7 @@ button:active {
 }
 
 #footer .link:hover {
-  border: 3px solid rgba(243, 243, 243, 0.64);
+  border: 3px solid rgba(51, 51, 51, 0.64);
 }
 
 #footer .link a:hover {
@@ -907,7 +913,7 @@ button:active {
   border: none;
   height: 65px;
   width: 65px;
-  background-color: rgba(243, 243, 243, 0.64);
+  background-color: rgba(0, 0, 0, 0.795);
   color: #fff;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
@@ -1012,7 +1018,7 @@ img:hover {
     min-height: auto;
     position: static;
     z-index: 1;
-    background-color: rgba(84, 84, 84, 0.56);
+    background-color: rgba(56, 56, 56, 0.56);
     left: 0;
     top: 0;
     transform: translateX(0px);
