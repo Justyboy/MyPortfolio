@@ -164,9 +164,14 @@ header.toggled #navigation {
 }
 
 .btn-light {
-  background-color: rgba(84, 84, 84, 0.56);
+  background-color: rgb(19, 19, 19);
+  border-radius: 30px;
+  transition: 0.8s ease-in-out;
 }
-
+.btn-light:hover {
+  background-color: rgb(138, 136, 134);
+  transition: 0.4s ease-in-out;
+}
 .go-down {
   display: none;
 }
@@ -392,7 +397,7 @@ h2 {
 .skill svg {
   height: 100px;
   fill: none;
-  stroke: rgba(12, 175, 0, 1);
+  stroke: rgb(167, 170, 4);
   stroke-width: 5px;
   stroke-dasharray: 251 251;
 }
@@ -406,7 +411,7 @@ h2 {
   content: "";
   width: 100%;
   height: 15px;
-  background-color: rgba(12, 175, 0, 1);
+  background-color: rgb(167, 170, 4);
   display: block;
   position: absolute;
   top: 72px;
@@ -763,7 +768,7 @@ button:active {
 
 #get-in-touch {
   text-align: center;
-  background-color: #191c35;
+  background-color: rgb(19, 19, 19);
   color: #fff;
   padding: 30px 0px;
 }
