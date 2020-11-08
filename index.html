@@ -3,501 +3,459 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Justin Lovett</title>
+    <title>Justin Lovett || Home</title>
+    <!-- font-awesome -->
     <link
-      href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:400,700"
       rel="stylesheet"
+      href="./fontawesome-free-5.12.1-web/css/all.min.css"
     />
-    <script
-      defer
-      src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"
-      integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="css/style.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
-
   <body>
-    <!--   header start-->
-    <header id="header">
-      <div class="container">
-        <div id="logo">
-          <p>Justin Lovett</p>
+    <!-- navbar -->
+    <nav class="nav" id="nav">
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <h4>Justin Lovett</h4>
+         <!-- <img src="images/newlogo.svg" class="nav-logo" alt="nav logo" /> -->
+          <button class="nav-btn" id="nav-btn">
+            <i class="fas fa-bars"></i>
+          </button>
         </div>
-        <div id="nav-toggle">
-          <i class="fas fa-bars"></i>
-        </div>
-        <nav id="navigation">
-          <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
+        <!-- nav-links -->
+        <ul class="nav-links">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="about.html">about</a>
+          </li>
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+    <!-- sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div>
+        <button class="close-btn" id="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <!-- nav-links -->
+        <ul class="sidebar-links">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="about.html">about</a>
+          </li>
+       
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
+        </ul>
+        <!-- social icons -->
+        <ul class="social-icons">
+          <li>
+            <a href="https://www.linkedin.com/in/justin-lovett-36919216b/" class="social-icon">
+              <i class="fab fa-behance"></i>
+            </a>
+          </li>
+          <li>
+            <a href="" class="social-icon">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <!-- end of sidebar -->
+    <!-- header -->
+    <header class="hero">
+      <div class="section-center hero-center">
+        <article class="hero-info">
+          <div class="underline"></div>
+          <h1>i'm Justin </h1>
+          <h4>freelance web developer</h4>
+          <a href="contact.html" class="btn hero-btn">hire me</a>
+          <!-- social icons -->
+          <ul class="social-icons hero-icons">
+            <!--
+            <li>
+              <a href="https://www.twitter.com" class="social-icon">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com" class="social-icon">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com" class="social-icon">
+                <i class="fab fa-squarespace"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com" class="social-icon">
+                <i class="fab fa-behance"></i>
+              </a>
+            </li>
+            -->
+            <li>
+              <a href="https://www.twitter.com" class="social-icon">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com" class="social-icon">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
           </ul>
-        </nav>
+        </article>
+        <article class="hero-img">
+          <img src="./images/me.jpg" class="hero-photo" alt="Justin Lovett" />
+        </article>
       </div>
     </header>
-    <!--    header end-->
-    <!--    intro start
-    <section id="intro">
-        <div class="container">
-            <div class="intro-text">
-                <h1>Hi, I'm <strong><span>Justin Lovett</span></strong> and I'm a<br> Web Developer</h1>
+    <!-- end of header -->
+    <!-- about -->
+    <section class="section about">
+      <div class="section-center about-center">
+        <!-- about img -->
+        <article class="about-img">
+          <img
+            src="./images/pccamera.jpg"
+            class="hero-photo"
+            alt="about img"
+          />
+        </article>
+        <!-- about info -->
+        <article class="about-info">
+          <!-- section title -->
+          <div class="section-title about-title">
+            <h2>about</h2>
+            <div class="underline"></div>
+          </div>
+          <!--end of section title -->
+          <p>
+            I have my Bachelor's degree in computer science with a focus on
+            web development. I have a passion for efficiently coding websites
+            and applications using modern HTML, CSS, and JavaScript.
+          </p>
+          <p>
+            In addition to my knowledge base, I actively seek out new
+            technologies and stay up-to-date on industry trends and
+            advancements. I also love photography and coffee!
+          </p>
+        
+          <a href="about.html" class="btn">about me</a>
+        </article>
+      </div>
+    </section>
+    <!-- end of about -->
+    
+    <!-- services -->
+    <section class="section bg-grey">
+      <!-- section title -->
+      <div class="section-title">
+        <h2>services</h2>
+        <div class="underline"></div>
+      </div>
+      <!--end of section title -->
+      <div class="services-center section-center">
+        <!-- single service -->
+        <article class="service">
+          <i class="fas fa-code service-icon"></i>
+          <h4>web development</h4>
+          <div class="underline"></div>
+          <p>
+           I have now 3 years work experience in web development. I am very well rounded as I worked in many different development environments in a team and as an individual freelancer. 
+          </p>
+        </article>
+        <!-- end of single service -->
+        <!-- single service -->
+        <article class="service">
+          <i class="fab fa-sketch service-icon"></i>
+          <h4>web design</h4>
+          <div class="underline"></div>
+          <p>
+            Trained in the "Mobile first" design of web apps for greater
+                functionality across multiple devices. I have design experience with Adobe products and many CMS development such as Wordpress and Shopify. 
+          </p>
+        </article>
+        <!-- end of single service -->
+        <!-- single service -->
+        <article class="service">
+          <i class="fas fa-server service-icon"></i>
+          <h4>Back End</h4>
+          <div class="underline"></div>
+          <p>
+            Managed SQL databases using PHP to peform CRUD operations. Experience with NodeJs as well
+          </p>
+        </article>
+        <!-- end of single service -->
+      </div>
+    </section>
+    <!-- end of services -->
+
+
+    <!-- projects -->
+    <section class="section projects">
+      <!-- section title -->
+      <div class="section-title">
+        <h2>latest works</h2>
+        <div class="underline"></div>
+        <p class="projects-text">
+          I take a lot of pride in all the work I do. 
+        </p>
+      </div>
+      <!--end of section title -->
+      <div class="section-center projects-center">
+        <!-- single project -->
+        <a href="https://netflix-clone-e5021.firebaseapp.com/" class="project-1">
+          <article class="project">
+            <img
+              src="./images/netflixscreenshot.PNG"
+              alt="single project"
+              class="project-img"
+            />
+            <div class="project-info">
+              <h4>Netflix Clone</h4>
+              
+            </div>
+          </article>
+        </a>
+        <!-- end of single project -->
+        <!-- single project -->
+        <a href="https://clone-cecd6.web.app/" class="project-2">
+          <article class="project">
+            <img
+              src="./images/Amazon.PNG"
+              alt="single project"
+              class="project-img"
+            />
+            <div class="project-info">
+              <h4>Amazon Clone</h4>
+              
+            </div>
+          </article>
+        </a>
+        <!-- end of single project --><!-- single project -->
+        <a href="https://www.steelrootsdecor.com/" class="project-3">
+          <article class="project">
+            <img
+              src="./images/family_love_banner2.jpg"
+              alt="single project"
+              class="project-img"
+            />
+            <div class="project-info">
+              <h4>Shopify Store</h4>
              
             </div>
-        </div>
-        
+          </article>
+        </a>
+        <!-- end of single project --><!-- single project -->
+        <a href="https://furbabyoutlets.com/" class="project-4">
+          <article class="project">
+            <img
+              src="./images/furbabyoutlets.PNG"
+              alt="single project"
+              class="project-img"
+            />
+            <div class="project-info">
+              <h4>Shopify Pet Store</h4>
+              
+            </div>
+          </article>
+        </a>
+        <!-- end of single project -->
+         <!-- end of single project --><!-- single project -->
+         <a href="" class="project-5">
+          <article class="project">
+            <img
+              src="./images/mac.jpg"
+              alt="single project"
+              class="project-img"
+            />
+            <div class="project-info">
+              <h4>More to come</h4>
+              
+            </div>
+          </article>
+        </a>
+        <!-- end of single project -->
+      </div>
     </section>
-    <!--   intro end-->
-    <!--   about me start-->
-    <section id="about-me">
-      <div class="container">
-        <div id="whoiam">
-          <div class="whoiam-img">
-            <img src="img/me.jpg" alt="me" />
-            <div id="about"></div>
-          </div>
-
-          <div class="whoiam-text">
-            <h2>Hello,</h2>
-            <p>
-              I have my Bachelor's degree in computer science with a focus on
-              web development. I have a passion for efficiently coding websites
-              and applications using modern HTML, CSS, and JavaScript.
-            </p>
-            <p>
-              In addition to my knowledge base, I actively seek out new
-              technologies and stay up-to-date on industry trends and
-              advancements.
-            </p>
-          </div>
+    <!-- end of projects -->
+    <!-- connect -->
+    <section class="connect">
+      <video
+        controls
+        autoplay
+        muted
+        loop
+        class="video-container"
+        poster="./images/project-1.jpeg"
+      >
+        <source src="./videos/connect.mp4" type="video/mp4" />
+        Sorry, your browser does not support embedded videos
+      </video>
+      <div class="video-banner">
+        <!-- section title -->
+        <div class="section-title">
+          <h2>let's get in touch</h2>
+          <div class="underline"></div>
         </div>
-
-        <div id="services">
-          <h2>Services</h2>
-          <div class="service">
-            <div class="service-icon">
-              <i class="fas fa-desktop"></i>
-            </div>
-            <div class="service-title">
-              <h3>Web Designer</h3>
-            </div>
-            <div class="service-desc">
-              <p>
-                Proficient in Adobe products such as Photoshop and Illustrator
-                to aid in the web design process.
+        <!--end of section title -->
+        <p class="video-text">
+          Looking forward to speaking with you.
+        </p>
+        <a href="contact.html" class="btn">contact me</a>
+        <div class="call-to-action">
+         <br>
+          <a
+            href="images/Justin_Lovett_RESUME_2021.pdf"
+            width="900px"
+            height="1200px"
+            class="btn btn-light"
+            ><i class="fas fa-download"></i>My Resume</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- end of connect -->
+    <!-- skills -->
+    <section class="section skills">
+      <!-- section title -->
+      <div class="section-title">
+        <h2>skills</h2>
+        <div class="underline"></div>
+      </div>
+      <!--end of section title -->
+      <div class="section-center skills-center">
+        <article>
+          <h3>front end</h3>
+          <!-- single skill -->
+          <div class="skill">
+            <p>HTML/CSS</p>
+            <div class="skill-container">
+              <div class="skill-value value-90"></div>
+              <p class="skill-text skill-text-90">
+                90%
               </p>
             </div>
           </div>
-          <div class="service">
-            <div class="service-icon">
-              <i class="fas fa-mobile-alt"></i>
-            </div>
-            <div class="service-title">
-              <h3>Responsive UI</h3>
-            </div>
-            <div class="service-desc">
-              <p>
-                Trained in the "Mobile first" design of web apps for greater
-                functionality across multiple devices.
+          <!--end of  single skill -->
+          <!-- single skill -->
+          <div class="skill">
+            <p>Javascript</p>
+            <div class="skill-container">
+              <div class="skill-value value-80"></div>
+              <p class="skill-text skill-text-80">
+                85%
               </p>
             </div>
           </div>
-          <div class="service">
-            <div class="service-icon">
-              <i class="fas fa-server"></i>
-            </div>
-            <div class="service-title">
-              <h3>Back End</h3>
-            </div>
-            <div class="service-desc">
-              <p>Managed SQL databases using PHP to peform CRUD operations. Experience with NodeJs as well</p>
-              <br />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--   about me end-->
-    <!--   history start-->
-    <section id="history">
-      <h2>My experience</h2>
-      <div class="history-container">
-        <div class="container">
-          <div class="history education">
-            <div class="history-title">
-              <div class="title-icon">
-                <i class="fas fa-graduation-cap"></i>
-              </div>
-              <div class="title-text">Education</div>
-            </div>
-            <div class="timeline">
-              <div class="event">
-                <div class="timeline-date">2019-present</div>
-                <div class="timeline-content">
-                  <h3>Farmingdale State College</h3>
-                  <h5>B.A and M.S, Computer Science</h5>
-                  <p>With a specialization in web development</p>
-                </div>
-              </div>
-              <div class="event">
-                <div class="timeline-date">2018</div>
-                <div class="timeline-content">
-                  <h3>Codeacdemy</h3>
-                  <h5>Front End Web Development</h5>
-                  <p>Online Certification</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="history work">
-            <div class="history-title">
-              <div class="title-icon">
-                <i class="fas fa-briefcase"></i>
-              </div>
-              <div class="title-text">Work History</div>
-            </div>
-            <div class="timeline">
-              <div class="event">
-                <div class="timeline-date">2019</div>
-                <div class="timeline-content">
-                  <h3>Suffolk County WebMasters</h3>
-                  <h5>Web Developer</h5>
-                  <p>Create and manage webpages for numerous clients</p>
-                </div>
-              </div>
-              <div class="event">
-                <div class="timeline-date">2010-2018</div>
-                <div class="timeline-content">
-                  <h3>Freelance Web Development</h3>
-                  <h5>Front End Web Developer</h5>
-                  <p>Made fully functional webpages for clients.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="call-to-action">
-            <p>See my Resume for more</p>
-            <a
-              href="img//Justin_Lovett_RESUME_2021.pdf"
-              width="900px"
-              height="1200px"
-              class="btn btn-light"
-              ><i class="fas fa-download"></i>My Resume</a
-            >
-          </div>
-        </div>
-      </div>
-      <div class="skills">
-        <section id="soft-skills">
-          <div class="container">
-            <h2>Soft Skills</h2>
-            <div class="skills-container">
-              <div class="skill one">
-                <div class="skill-icon">
-                  <svg viewBox="0 0 100 100">
-                    <circle cx="50" cy="50" r="40" id="circle"></circle>
-                  </svg>
-                </div>
-                <div class="skill-rating">
-                  <p>85%</p>
-                </div>
-                <div class="skill-title">
-                  <h5>Creativity</h5>
-                </div>
-              </div>
-              <div class="skill two">
-                <div class="skill-icon">
-                  <svg viewBox="0 0 100 100">
-                    <circle cx="50" cy="50" r="40"></circle>
-                  </svg>
-                </div>
-                <div class="skill-rating">
-                  <p>92%</p>
-                </div>
-                <div class="skill-title">
-                  <h5>Work In Team</h5>
-                </div>
-              </div>
-
-              <div class="skill three">
-                <div class="skill-icon">
-                  <svg viewBox="0 0 100 100">
-                    <circle cx="50" cy="50" r="40"></circle>
-                  </svg>
-                </div>
-                <div class="skill-rating">
-                  <p>95%</p>
-                </div>
-
-                <div class="skill-title">
-                  <h5>Communication</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section id="technical-skills">
-          <div class="container">
-            <h2>Technical Skills</h2>
-            <div class="skills-container">
-              <div class="skill one">
-                <div class="skill-title">
-                  <h5>HTML5</h5>
-                </div>
-                <div class="skill-rating">
-                  <p>98%</p>
-                </div>
-              </div>
-              <div class="skill two">
-                <div class="skill-title">
-                  <h5>CSS3</h5>
-                </div>
-                <div class="skill-rating">
-                  <p>95%</p>
-                </div>
-              </div>
-              <div class="skill three">
-                <div class="skill-title">
-                  <h5>JavaScript</h5>
-                </div>
-                <div class="skill-rating">
-                  <p>75%</p>
-                </div>
-              </div>
-              <div class="skill four">
-                <div class="skill-title">
-                  <h5>PHP</h5>
-                </div>
-                <div class="skill-rating">
-                  <p>80%</p>
-                </div>
-              </div>
-              <div class="skill four">
-                <div class="skill-title">
-                  <h5>React</h5>
-                </div>
-                <div class="skill-rating">
-                  <p>70%</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-    </section>
-    <!--   history end-->
-    <!--   portfolio start -->
-    <section id="portfolio">
-      <div class="container">
-        <h2>My Projects</h2>
-        <div class="projects-container">
-          <!--
-                <div class="project one">
-                    <div class="project-info">
-                       
-                        <h3 class="project-title">Recovery Project</h3>
-                        <p class="project-desc">This is a website I create for a client that owns a business and didn't have a website. I used many skills to make this Parallax effect design which they love and it is live today. <br><a href="#"></a></p>
-                    </div>
-                </div>
-                <div class="project two">
-                    <div class="project-info">
-                        
-                        <h3 class="project-title">School Project</h3>
-                        <p class="project-desc">As a recent graduate I have done many school projects so I thought I would include one that I worked hard on and proud of. </p><a  href="www.hamptonjitney.com"></a>
-                    </div>
-                </div>
-                  -->
-                  <div class="project two">
-                    <div class="project-info">
-                      <h3 class="project-title">Netflix Clone</h3>
-                      <a href="https://netflix-clone-e5021.firebaseapp.com/"
-                        ><p class="project-desc">
-                          The Netflix Clone - Hosted on Google's Firebase - Uses React youtube api and TMDB movie database api
-                          <br /><br /><strong>Click to see more</strong
-                          ><br /><br /></p
-                      ></a>
-                    </div>
-                  </div>
-
-                <div class="project three">
-                    <div class="project-info">
-                       
-                        <h3 class="project-title">Shopify Store</h3>
-                        <a  href="https://www.steelrootsdecor.com/">
-                        <p class="project-desc">I currently manage this Shopify store. I make custom changes in liquid code. <br /><br /><strong
-                          >Click to see more</strong
-                        ><br /><br /></p> <br></a>
-</p>
-                    </div>
-                </div>
-
-          <div class="project four">
-            <div class="project-info">
-              <h3 class="project-title">Amazon Clone</h3>
-              <a href="https://clone-cecd6.web.app/"
-                ><p class="project-desc">
-                  Amazon.com Clone - Hosted on Google's Firebase - Make an account and log in - Add items to the cart and 
-                  watch the price dynamically update.
-                  <br /><br /><strong>Click to see more</strong
-                  ><br /><br /></p
-              ></a>
-            </div>
-          </div>
-         
-
-          <div class="project five">
-            <div class="project-info">
-              <h3 class="project-title">Hampton Jitney</h3>
-              <a href="https://reservations.hamptonjitney.com/hjmobile/">
-                <p class="project-desc">
-                  Hampton Jitney's main webpage is currently being updated and
-                  monitored by me. I had a major role in the creation of this
-                  webpage while working with a team of developers.<br /><br /><strong
-                    >Click to see more</strong
-                  ><br /><br /></p
-              ></a>
-            </div>
-          </div>
-
-         
-
-          <div class="project six">
-            <div class="project-info">
-              <h3 class="project-title">More to come</h3>
-              <p class="project-desc">
-                Currently working on another React project .<br /><br /><br /><br /><br /><br />
+          <!--end of  single skill -->
+          <!-- single skill -->
+          <div class="skill">
+            <p>React</p>
+            <div class="skill-container">
+              <div class="skill-value value-70"></div>
+              <p class="skill-text skill-text-70">
+                75%
               </p>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <!--   portfolio end-->
-    <!--   by numbers start
-    <section id="by-numbers">
-        <div class="container">
-            <h2>By Numbers</h2>
-            <div class="facts-container">
-                <div class="fact">
-                    <div class="fact-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <div class="fact-text">
-                        <h5>320 Projects</h5>
-                    </div>
-                </div>
-                <div class="fact">
-                    <div class="fact-icon">
-                        <i class="far fa-clock"></i>
-                    </div>
-                    <div class="fact-text">
-                        <h5>1200 Work Hours</h5>
-                    </div>
-                </div>
-                <div class="fact">
-                    <div class="fact-icon">
-                        <i class="fas fa-phone"></i>
-                    </div>
-                    <div class="fact-text">
-                        <h5>95 Customer support</h5>
-                    </div>
-                </div>
-                <div class="fact">
-                    <div class="fact-icon">
-                        <i class="far fa-smile"></i>
-                    </div>
-                    <div class="fact-text">
-                        <h5>980+ Happy Clients</h5>
-                    </div>
-                </div>
+          <!--end of  single skill -->
+        </article>
+        <article>
+          <h3>back end</h3>
+          <!-- single skill -->
+          <div class="skill">
+            <p>Node</p>
+            <div class="skill-container">
+              <div class="skill-value"></div>
+              <p class="skill-text">
+                50%
+              </p>
             </div>
-        </div>
-    </section>
--->
-
-    <!--   by numbers end-->
-    <div id="contact"></div>
-    <!--get in touch start-->
-    <section id="get-in-touch">
-      <div class="container">
-        <div class="infos-container">
-          <a href="http://maps.google.com/?q= Long Island, New York, 11961">
-            <div class="info">
-              <div class="info-icon">
-                <i class="fas fa-map-marker"></i>
-              </div>
-              <div class="info-title">Location</div>
-              <div class="info-content">Long Island, NY</div>
-            </div>
-          </a>
-          <a href="tel:631-644-7380">
-            <div class="info">
-              <div class="info-icon">
-                <i class="fas fa-phone"></i>
-              </div>
-              <div class="info-title">Tel</div>
-              <div class="info-content">+1 (631) 644 7380</div>
-            </div>
-          </a>
-          <a href="mailto:justin.lovett@aol.com">
-            <div class="info">
-              <div class="info-icon">
-                <i class="fas fa-envelope"></i>
-              </div>
-              <div class="info-title">Email</div>
-              <div class="info-content">Justin.Lovett@aol.com</div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </section>
-    <!--   get in touch end-->
-    <!--   contact start
-    <section id="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <form method="post" action="mailto:justin.lovett@aol.com">
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <textarea placeholder="Your Message"></textarea>
-                <button class="btn btn-highlight" type="submit" >Send your Message</button>
-            </form>
-        </div>
-
-    </section>
-    <!--   contact end-->
-
-    <!--   footer start-->
-    <footer id="footer">
-      <div class="container first">
-        <div class="logo"></div>
-        <div class="social-links">
-          <div class="link">
-            <a href="https://www.facebook.com/"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
           </div>
-          <div class="link">
-            <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+          <!--end of  single skill -->
+          <!-- single skill -->
+          <div class="skill">
+            <p>PHP</p>
+            <div class="skill-container">
+              <div class="skill-value value-70"></div>
+              <p class="skill-text skill-text-70">
+                70%
+              </p>
+            </div>
           </div>
+          <!--end of  single skill -->
+          <!-- single skill -->
+          <div class="skill">
+            <p>SQL</p>
+            <div class="skill-container">
+              <div class="skill-value value-80"></div>
+              <p class="skill-text skill-text-80">
+                80%
+              </p>
+            </div>
+          </div>
+          <!--end of  single skill -->
+        </article>
+      </div>
+    </section>
+    <!-- end of skills -->
 
-          <div class="link">
-            <a href="https://www.linkedin.com/in/justin-lovett-36919216b/"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
-          </div>
-        </div>
-      </div>
-      <div class="container copyright">
-        <p>All Rights Reserved © 2020 Justin Lovett</p>
-      </div>
+
+    <!-- footer -->
+    <footer class="footer">
+      <!-- social icons -->
+      <ul class="social-icons">
+         <!--
+        <li>
+          <a href="https://www.twitter.com" class="social-icon">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com" class="social-icon">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com" class="social-icon">
+            <i class="fab fa-squarespace"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com" class="social-icon">
+            <i class="fab fa-behance"></i>
+          </a>
+        </li>
+        -->
+        <li>
+          <a href="https://www.linkedin.com/in/justin-lovett-36919216b/" class="social-icon">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+
+      <p>&copy; <span id="date"></span> Justin Lovett. all rights reserved</p>
     </footer>
-    <!--   footer end-->
-
-    <div class="go-up" id="go-up">
-      <a href="#intro"><i class="fas fa-angle-up"></i></a>
-    </div>
-
-    <script src="js/script.js"></script>
+    <script src="./js/app.js"></script>
   </body>
 </html>
